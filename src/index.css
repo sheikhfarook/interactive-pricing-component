@@ -1,2 +1,11 @@
-.circle_ring {
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* .circle_ring {
+  background-image: url(../src/assets/pattern-circles.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+} */
