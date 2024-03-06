@@ -36,7 +36,9 @@ const PackOffer = () => {
       </div>
       <div
         className="w-[170px] h-[41px] rounded-[20.5px] bg-[#293356] flex items-center 
-      text-center justify-center font-manrope text-[12px] font-[800] text-[#becdff]  max-sm:m-auto">
+         cursor-pointer mouse hover:text-[#FFF] text-center justify-center font-manrope text-[12px]
+         font-[800] text-[#becdff]  max-sm:m-auto
+       ">
         Start my trial
       </div>
     </div>

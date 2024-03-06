@@ -3,10 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.circle_ring {
-  background-image: url(../src/assets/bg-pattern.svg);
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 449px;
+@media (min-width: 640px) {
+  .circle_ring {
+    background-image: url(../src/assets/bg-pattern.svg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 449px;
+  }
+}
+@media (max-width: 639px) {
+  .circle_ring {
+    background-image: url(../src/assets/bg-pattern.svg);
+    background-position: top;
+    background-size: 100% 30rem;
+    background-repeat: no-repeat;
+    min-height: 449px;
+  }
 }
